@@ -122,7 +122,11 @@ public class CompatibilityTest {
     }
 
     private void tearDownDatabase() throws Exception {
-        runScript(getProperty("middlegen.database.teardown.script"));
+        try {
+            runScript(getProperty("middlegen.database.teardown.script"));
+        } catch (Exception e) {
+            System.err.println("WARNING: " + e.getMessage());
+        }
     }
 
     private void runScript(String scriptPath) {
