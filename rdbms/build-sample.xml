@@ -1,0 +1,35 @@
+        <middlegen>
+            <!-- PicoContainer style components required by Middlegen -->
+
+            <!-- Table mixins -->
+            <component
+                classname="org.codehaus.rdbms.impl.TableMixin"
+                mixin="org.codehaus.middlegen.javax.JavaClassImpl"/>
+            <component
+                classname="org.codehaus.rdbms.impl.TableMixin"
+                mixin="org.codehaus.middlegen.javax.GenericClassImpl"/>
+
+            <!-- Column mixins -->
+            <component
+                classname="org.codehaus.rdbms.impl.ColumnMixin"
+                mixin="org.codehaus.middlegen.javax.JavaFieldImpl"/>
+            <component
+                classname="org.codehaus.rdbms.impl.ColumnMixin"
+                mixin="org.codehaus.middlegen.javax.GenericFieldImpl"/>
+
+            <!-- JDBC connection -->
+            <component
+                classname="org.codehaus.rdbms.jdbc.JDBCConnectionFactory"
+                driver="com.mysql.jdbc.Driver"
+                url="jdbc:mysql://localhost/middlegen"
+                userid="root"
+                password=""
+                classpath="lib/mysql-connector-java-3.0.14-production-bin.jar"
+                />
+
+            <!-- Plugins - for file generation -->
+            <component
+                classname="org.codehaus.plugin.hibernate.HibernatePlugin"
+                destdir="${basedir}/target/middlegen-output"
+                />
+        </middlegen>

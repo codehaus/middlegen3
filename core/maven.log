@@ -1,0 +1,4 @@
+2004-05-16 22:50:01,452 WARN  org.apache.maven.jelly.tags.BaseTagSupport - resources or todir was null
+2004-05-16 22:50:01,582 INFO  org.apache.maven.cli.App - Total time: 3 seconds
+2004-05-16 22:50:01,592 INFO  org.apache.maven.cli.App - Finished at: Sun May 16 22:50:01 BST 2004
+2004-05-16 22:50:01,592 INFO  org.apache.maven.cli.App - 

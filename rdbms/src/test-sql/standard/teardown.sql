@@ -1,0 +1,9 @@
+drop table ZZ if exists;
+drop table YY if exists;
+drop table XX if exists;
+drop table WW if exists;
+drop table VV if exists;
+drop table UU if exists;
+drop table TT if exists;
+drop table QQ if exists;
+drop table PP if exists;

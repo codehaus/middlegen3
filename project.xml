@@ -1,0 +1,405 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<project>
+
+    <pomVersion>3</pomVersion>
+    <name>Middlegen</name>
+    <groupId>middlegen</groupId>
+    <currentVersion>3.0-SNAPSHOT</currentVersion>
+    <url>http://xdoclet.sf.net/xdoclet2/plugins/${pom.artifactId}/</url>
+    <organization>
+        <name>Codehaus</name>
+        <url>http://middlegen.codehaus.org/</url>
+        <logo>http://images.werken.com/codehaus.gif</logo>
+    </organization>
+    <inceptionYear>2003</inceptionYear>
+    <package>org.codehaus</package>
+    <logo>/images/middlegen_logo.gif</logo>
+
+    <issueTrackingUrl>http://jira.codehaus.org/secure/BrowseProject.jspa?id=10231</issueTrackingUrl>
+    <siteAddress>xdoclet.sf.net</siteAddress>
+
+    <distributionDirectory>/www/maven.apache.org/builds/</distributionDirectory>
+
+    <repository>
+        <connection>scm:cvs:pserver:anonymous@cvs.codehaus.org:/cvsroot/middlegen:middlegen</connection>
+        <url>http://middlegen.cvs.codehaus.org/</url>
+    </repository>
+
+    <mailingLists>
+        <mailingList>
+            <name>Middlegen Developers</name>
+            <subscribe>http://lists.codehaus.org/mailman/listinfo/middlegen-dev</subscribe>
+            <unsubscribe>http://lists.codehaus.org/mailman/listinfo/middlegen-dev</unsubscribe>
+            <archive>http://lists.codehaus.org/pipermail/middlegen-dev/</archive>
+        </mailingList>
+        <mailingList>
+            <name>Middlegen CVS Commits</name>
+            <subscribe>http://lists.codehaus.org/mailman/listinfo/middlegen-commits</subscribe>
+            <unsubscribe>http://lists.codehaus.org/mailman/listinfo/middlegen-commits</unsubscribe>
+            <archive>http://lists.codehaus.org/pipermail/middlegen-commits/</archive>
+        </mailingList>
+    </mailingLists>
+
+    <developers>
+        <developer>
+            <name>Aslak Hellesøy</name>
+            <id>rinkrank</id>
+            <email>NOSPAMXaslak@thoughtworks.net</email>
+            <organization>ThoughtWorks</organization>
+            <roles>
+                <role>Administrator</role>
+                <role>Release Manager</role>
+                <role>Developer</role>
+                <role>Architect</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Eivind Waaler</name>
+            <id>eivindw</id>
+            <email>NOSPAMXeivind.waaler@bekk.no</email>
+            <organization>BEKK</organization>
+            <roles>
+                <role>Struts/JSP Plugin Developer</role>
+            </roles>
+        </developer>
+        <developer>
+            <name>Ludovic Claude</name>
+            <id>ludovicc</id>
+            <email>NOSPAMXludovicc@users.sourceforge.net</email>
+            <organization></organization>
+            <roles>
+                <role>JDO Plugin Developer</role>
+            </roles>
+        </developer>
+
+    </developers>
+
+    <contributors>
+        <contributor>
+            <name>Alexander Dvorkovyy</name>
+            <email></email>
+            <organization></organization>
+            <roles>
+                <role>Singularise/Pluralise patch</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>David Cowan</name>
+            <email>dcowan at users.sourceforge.net</email>
+            <organization></organization>
+            <roles>
+                <role>Oracle patches</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Charles Connelly</name>
+            <email>cconnelly at users.sourceforge.net</email>
+            <organization></organization>
+            <roles>
+                <role>Good bug reports and feature requests</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Eric Lauritzen</name>
+            <email>eric.lauritzen at bekk.no</email>
+            <organization>BEKK</organization>
+            <roles>
+                <role>Logos and icons</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Matthias Flor</name>
+            <email>mflor at users.sourceforge.net</email>
+            <organization></organization>
+            <roles>
+                <role>Oracle patches</role>
+                <role>Oracle sequence contributor</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Jonathan O'Connor</name>
+            <email>ninki at users.sourceforge.net</email>
+            <organization></organization>
+            <roles>
+                <role>Better support for NUMERIC types</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Leander Reimer</name>
+            <email>reimerl at users.sourceforge.net</email>
+            <organization></organization>
+            <roles>
+                <role>several cmp20 patches</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Michael Szlapa</name>
+            <email>mszlapa at yahoo.com</email>
+            <organization></organization>
+            <roles>
+                <role>Oracle patches</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Ravi Deshmukh</name>
+            <email>ravi_deshmukh at yahoo.com</email>
+            <organization></organization>
+            <roles>
+                <role>Sybase Tester</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Oz Kologlu</name>
+            <email>oz_ko at users.sourceforge.net</email>
+            <organization></organization>
+            <roles>
+                <role>Fix for bug #605058</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Adrian Hallam</name>
+            <email>ardochoke at yahoo.com</email>
+            <organization></organization>
+            <roles>
+                <role>Improved error reporting for schema problems</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Eduardo Pardal Pimentel</name>
+            <email>pardal at yahoo.com</email>
+            <organization></organization>
+            <roles>
+                <role>DB2 scripts</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Ben Litchfield</name>
+            <email>benlitchfield at users.sourceforge.net</email>
+            <organization></organization>
+            <roles>
+                <role>SequenceBlock patch</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Magnus Mickelsson</name>
+            <email>miffel at users.sourceforge.net</email>
+            <organization></organization>
+            <roles>
+                <role>Javadoc patches</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Dean Des Rosiers</name>
+            <email>desro at users.sourceforge.net</email>
+            <organization></organization>
+            <roles>
+                <role>Initial MVCSoft patches</role>
+                <role>Default column patch</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Hal Deadman</name>
+            <email>hdeadman at users.sourceforge.net</email>
+            <organization>Tallan, Inc.</organization>
+            <roles>
+                <role>MVCSoft patches</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Ludovic Orban</name>
+            <email>lorban at users.sourceforge.net</email>
+            <organization></organization>
+            <roles>
+                <role>Sequence block patches</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Alex Roytman</name>
+            <email>roytmana at users.sourceforge.net</email>
+            <organization></organization>
+            <roles>
+                <role>Singularise bugfix</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Gavin King</name>
+            <email>oneovthafew at users.sourceforge.net</email>
+            <organization>Hibernate</organization>
+            <roles>
+                <role>Hibernate plugin</role>
+            </roles>
+        </contributor>
+        <contributor>
+            <name>Rong C. Ou</name>
+            <email>rongou at users.sourceforge.net</email>
+            <organization></organization>
+            <roles>
+                <role>JDO bugfixes</role>
+            </roles>
+        </contributor>
+
+    </contributors>
+
+    <dependencies>
+        <dependency>
+            <id>picocontainer</id>
+            <version>1.0-final-SNAPSHOT</version>
+            <url>http://www.picocontainer.org/</url>
+        </dependency>
+
+        <dependency>
+            <id>proxytoys</id>
+            <version>0.1-SNAPSHOT</version>
+            <url>http://proxytoys.codehaus.org/</url>
+        </dependency>
+
+        <dependency>
+            <groupId>nanocontainer</groupId>
+            <artifactId>nanocontainer-ant</artifactId>
+            <version>1.0-beta-1-SNAPSHOT</version>
+            <url>http://nanocontainer.codehaus.org/ant/</url>
+        </dependency>
+
+        <dependency>
+            <groupId>nanocontainer</groupId>
+            <artifactId>nanocontainer</artifactId>
+            <version>1.0-beta-1-SNAPSHOT</version>
+        </dependency>
+
+        <dependency>
+            <id>generama</id>
+            <version>1.0-alpha-1-SNAPSHOT</version>
+            <url>http://xdoclet.codehaus.org/generama/</url>
+        </dependency>
+
+        <dependency>
+            <id>velocity</id>
+            <version>1.4-dev</version>
+            <url>http://jakarta.apache.org/velocity/</url>
+        </dependency>
+
+        <dependency>
+            <id>commons-collections</id>
+            <version>2.1</version>
+            <url>http://jakarta.apache.org/</url>
+        </dependency>
+
+        <dependency>
+            <id>log4j</id>
+            <version>1.2.8</version>
+            <url>http://jakarta.apache.org/log4j/</url>
+        </dependency>
+
+        <dependency>
+            <id>commons-logging</id>
+            <version>1.0.3</version>
+            <url>http://jakarta.apache.org/commons/logging/</url>
+        </dependency>
+
+        <dependency>
+            <id>commons-beanutils</id>
+            <version>1.6.1</version>
+            <url>http://jakarta.apache.org/</url>
+        </dependency>
+
+        <dependency>
+            <id>commons-jelly</id>
+            <version>1.0-beta-4</version>
+            <url>http://jakarta.apache.org/jelly/</url>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-jelly</groupId>
+            <artifactId>commons-jelly-tags-xml</artifactId>
+            <version>20030211.142705</version>
+            <url>http://jakarta.apache.org/jelly/</url>
+        </dependency>
+
+        <dependency>
+            <groupId>commons-jelly</groupId>
+            <artifactId>commons-jelly-tags-define</artifactId>
+            <version>20030211.142932</version>
+        </dependency>
+
+        <dependency>
+            <id>dom4j</id>
+            <version>1.4-dev-8</version>
+        </dependency>
+
+        <dependency>
+            <id>commons-jexl</id>
+            <version>1.0-beta-2</version>
+            <url>http://jakarta.apache.org/jexl/</url>
+        </dependency>
+
+        <dependency>
+            <id>ant</id>
+            <version>1.5.3-1</version>
+        </dependency>
+
+        <!-- Build/Test time only -->
+
+        <dependency>
+            <id>xmlunit</id>
+            <version>1.0</version>
+            <url></url>
+        </dependency>
+
+        <dependency>
+            <id>antlr</id>
+            <version>2.7.2</version>
+            <url>http://www.antlr.org/</url>
+        </dependency>
+
+        <dependency>
+            <id>junit</id>
+            <version>3.8.1</version>
+            <url></url>
+        </dependency>
+
+        <dependency>
+            <id>hsqldb</id>
+            <version>1.7.1</version>
+            <url>http://hsqldb.sf.net/</url>
+        </dependency>
+
+
+    </dependencies>
+
+    <build>
+        <name>Middlegen</name>
+
+        <sourceDirectory>${basedir}/src/main</sourceDirectory>
+        <resources>
+            <resource>
+                <directory>${basedir}/src/main</directory>
+                <includes>
+                    <include>**/*.jelly</include>
+                    <include>**/*.vm</include>
+                    <include>**/*.gif</include>
+                </includes>
+            </resource>
+        </resources>
+
+        <unitTestSourceDirectory>${basedir}/src/test</unitTestSourceDirectory>
+        <unitTest>
+            <includes>
+                <include>**/*Test.java</include>
+                <include>**/*TestCase.java</include>
+            </includes>
+            <excludes>
+                <exclude>**/Abstract*.java</exclude>
+            </excludes>
+            <resources>
+                <resource>
+                    <directory>${basedir}/src/test</directory>
+                    <includes>
+                        <include>**/*.jelly</include>
+                        <include>**/*.xml</include>
+                    </includes>
+                </resource>
+            </resources>
+        </unitTest>
+    </build>
+</project>
+

@@ -1,0 +1,9 @@
+2004-05-16 22:49:38,489 INFO  org.apache.maven.verifier.DependencyVerifier - Attempting to download picocontainer-1.0-RC-1-SNAPSHOT.jar.
+2004-05-16 22:49:39,400 INFO  org.apache.maven.verifier.DependencyVerifier - Attempting to download proxytoys-0.1-SNAPSHOT.jar.
+2004-05-16 22:49:39,731 INFO  org.apache.maven.verifier.DependencyVerifier - Attempting to download nanocontainer-ant-1.0-beta-1-SNAPSHOT.jar.
+2004-05-16 22:49:40,122 INFO  org.apache.maven.verifier.DependencyVerifier - Attempting to download nanocontainer-multicast-1.0-beta-1-SNAPSHOT.jar.
+2004-05-16 22:49:40,512 INFO  org.apache.maven.verifier.DependencyVerifier - Attempting to download nanocontainer-1.0-beta-1-SNAPSHOT.jar.
+2004-05-16 22:49:40,893 INFO  org.apache.maven.verifier.DependencyVerifier - Attempting to download generama-1.0-alpha-1-SNAPSHOT.jar.
+2004-05-16 22:49:46,631 INFO  org.apache.maven.cli.App - Total time: 12 seconds
+2004-05-16 22:49:46,631 INFO  org.apache.maven.cli.App - Finished at: Sun May 16 22:49:46 BST 2004
+2004-05-16 22:49:46,631 INFO  org.apache.maven.cli.App - 
